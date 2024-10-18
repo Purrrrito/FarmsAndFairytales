@@ -17,12 +17,12 @@ html {
   min-height: 100%;
 }
 
-body {
-  margin-bottom: 60px;
-  background-image: url("../homeImages/FAFHomeBackground.jpg");
-  background-position: top;
-  background-repeat: no-repeat;
-  background-size: 80%;
+body.index-page {
+    margin-bottom: 60px;
+    background-image: url("../homeImages/FAFHomeBackground.jpg");
+    background-position: top;
+    background-repeat: no-repeat;
+    background-size: 80%;
 }
 
 #title-text {
