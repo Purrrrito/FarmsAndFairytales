@@ -19,4 +19,43 @@ html {
 
 body {
   margin-bottom: 60px;
+  background-image: url("../homeImages/FAFHomeBackground.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 70%;
 }
+
+#welcome-text {
+    font-family: "Qwitcher Grypen", cursive;
+    font-size: 150px;
+    padding-bottom: 10px;
+    border: 10px solid black;
+    border-radius: 25px;
+    margin: 0 auto 20px auto;
+    width: 75%;
+    background-color: rgb(255 255 255 / .5);
+}
+
+div.scroll-container {
+    background-color: #333;
+    overflow: auto;
+    white-space: nowrap;
+    padding: 10px;
+    margin-top: 10px;
+}
+
+div.scroll-container img {
+    padding: 10px;
+}
+
+#carousel-image-navigation {
+    width: 60%;
+    height: auto;
+    margin: 20px auto 0
+}
+
+.carousel-inner img {
+    width: 100%;
+    height: auto;
+}
+
